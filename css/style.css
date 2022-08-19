@@ -304,6 +304,47 @@
   font-weight: bold;
 }
 
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Tablet*/
+
+@media (max-width: 780px) {
+  /*Event form*/
+
+  #event-description {
+    width: 100vw;
+  }
+
+  #subscription-form {
+    max-width: 40%;
+  }
+
+  /*Benefits Section*/
+
+  .benefits {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 2em;
+  }
+
+  .benefit {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
+
+  /*Event-Location*/
+
+  #location {
+    margin-bottom: 2em;
+  }
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*Mobile*/
 @media (max-width: 450px) {
   .btn {
@@ -414,36 +455,3 @@
   }
 }
 
-/*Tablet*/
-
-@media (max-width: 780px) {
-  /*Event form*/
-
-  #event-description {
-    width: 100vw;
-  }
-
-  #subscription-form {
-    max-width: 40%;
-  }
-
-  /*Benefits Section*/
-
-  .benefits {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    padding: 2em;
-  }
-
-  .benefit {
-    max-width: 100%;
-    margin-bottom: 2em;
-  }
-
-  /*Event-Location*/
-
-  #location {
-    margin-bottom: 2em;
-  }
-}
